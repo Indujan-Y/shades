@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tilt } from 'react-tilt';
 import './Login.css'
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -31,9 +32,9 @@ function Login() {
                 <input type="submit" className="button" value="Login" />
                 <span id="small-txt">
                     Don't have an account?
-                    <a href="">
+                    <Link to="/signup">
                         Sign Up
-                    </a>
+                    </Link>
                 </span>
             </div>
         </Tilt>
