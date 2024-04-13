@@ -46,6 +46,10 @@ input {
     height: 8%;
 }
 
+input:focus {
+    outline: none;
+}
+
 #email {
     width: 30%;
 }

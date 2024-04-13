@@ -2,11 +2,12 @@ import "./App.css";
 import Login from "./pages/Login";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SignUp from "./pages/SignUp";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <></>,
+    element: <Home />,
     errorElement: <div>404 not found</div>
   },
   {
